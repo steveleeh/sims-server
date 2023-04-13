@@ -1,5 +1,5 @@
 {
-  "name": "nest-typescript-starter",
+  "name": "sims-server",
   "private": true,
   "version": "1.0.0",
   "description": "Nest TypeScript starter repository",
@@ -20,8 +20,12 @@
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
+    "@nestjs/config": "^2.3.1",
     "@nestjs/core": "^9.0.5",
     "@nestjs/platform-express": "^9.0.0",
+    "neo4j-driver": "^5.7.0",
+    "neo4j-driver-core": "^5.7.0",
+    "nest-neo4j": "^0.3.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.5.5"
   },
